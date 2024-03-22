@@ -5,14 +5,13 @@ import { getStorage } from "firebase/storage";
 
 // these are the firebase config files
 const firebaseConfig = {
-  apiKey: "AIzaSyAdOnku_4QmSDtIpyDChnAG28CnlKXHvC4",
-  authDomain: "eightcap-e3774.firebaseapp.com",
-  projectId: "eightcap-e3774",
-  storageBucket: "eightcap-e3774.appspot.com",
-  messagingSenderId: "539698828514",
-  appId: "1:539698828514:web:97465213a08f3244847abb",
+  apiKey: "AIzaSyAeC3_SIN4lX8Q1E6U-njGAv9UJCFaqlz4",
+  authDomain: "eighcap-io.firebaseapp.com",
+  projectId: "eighcap-io",
+  storageBucket: "eighcap-io.appspot.com",
+  messagingSenderId: "667015270739",
+  appId: "1:667015270739:web:e8af2d35a94643c42411a6",
 };
-
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const store = getFirestore(app);
