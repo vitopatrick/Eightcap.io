@@ -37,7 +37,7 @@ const variants = {
 
 const DepositForm = () => {
   const [selectedCoin, setSelectedCoin] = useState<any | null | undefined>({});
-  const [coin, setCoin] = useState<string>("Eth");
+  const [coin, setCoin] = useState<string>("BTC");
   const [amount, setAmount] = useState<string | number | any>("");
   // const [show, setShow] = useState(false);
 
